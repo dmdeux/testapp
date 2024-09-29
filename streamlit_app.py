@@ -6,10 +6,10 @@ with st.container():
    st.title("Student at CFIS-UPC")
    st.write("This is a test, meanwhile, here you have a [nice song](https://youtu.be/wM4XDbkFvhk?si=9oZM3q9hj5ynefmd)")
 
-  with st.container():
-    st.write("---")
-    left_column, right_column = st.columns(2)
-    with left_column:
+with st.container():
+   st.write("---")
+   left_column, right_column = st.columns(2)
+   with left_column:
       st.header("What I do")
       st.write("##")
       st.write(
