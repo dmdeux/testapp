@@ -1,6 +1,6 @@
 import streamlit as st
 #emoticonos en https://www.webfx.com/tools/emoji-cheat-sheet/
-st.set_page_config(page_title="Testeando, page_icon=":smile:, layout="wide")
+st.set_page_config(page_title="Testeando", page_icon=":saluting_face:", layout="wide")
 st.subheader("¡Hola, mi nombre es Darío Martínez Martínez!")
 st.title("Estudiante del CFIS en la UPC")
 st.write(
